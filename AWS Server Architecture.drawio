@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T16:38:55.920Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="ny_zpUbaChfBMnJkF2dI" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-13T18:29:35.474Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="4xweRCsIM5hoxAz2nfpn" version="20.8.16" type="github" pages="2">
   <diagram name="AWS Server Archite" id="SD0fxXQnRGEGHcpXXhom">
-    <mxGraphModel dx="1339" dy="650" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1137" dy="650" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -160,6 +160,67 @@
         </mxCell>
         <mxCell id="YsqZmD438xSfTDyG8ZRu-25" value="Users Accessing applications&lt;br&gt;through&lt;br&gt;Web browser" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="583" y="572" width="231" height="77" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1-BWtYAePJslckLNeBEu" name="Jenkins">
+    <mxGraphModel dx="1194" dy="682" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="R-BuqF5xxnEAtqbr3zsK-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fillColor=#FF0831;" edge="1" parent="1" source="R-BuqF5xxnEAtqbr3zsK-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="198" y="171" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-BuqF5xxnEAtqbr3zsK-4" value="Git/Bitbucket" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="44" y="132" width="121" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="R-BuqF5xxnEAtqbr3zsK-28" value="Pull &lt;br&gt;Request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="R-BuqF5xxnEAtqbr3zsK-4">
+          <mxGeometry x="11" y="22" width="88" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="R-BuqF5xxnEAtqbr3zsK-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;fillColor=#FF0831;" edge="1" parent="1" source="R-BuqF5xxnEAtqbr3zsK-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="396" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-BuqF5xxnEAtqbr3zsK-7" value="Maven" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="198" y="132" width="154" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="R-BuqF5xxnEAtqbr3zsK-8" value="Build" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="R-BuqF5xxnEAtqbr3zsK-7">
+          <mxGeometry x="44" y="22" width="66" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="R-BuqF5xxnEAtqbr3zsK-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=16;fillColor=#FF0831;" edge="1" parent="1" source="R-BuqF5xxnEAtqbr3zsK-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="572" y="171" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-BuqF5xxnEAtqbr3zsK-10" value="Sonarqube" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="396" y="132" width="134" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="R-BuqF5xxnEAtqbr3zsK-11" value="Code &lt;br&gt;Standards" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="R-BuqF5xxnEAtqbr3zsK-10">
+          <mxGeometry x="17.5" y="22" width="99" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="R-BuqF5xxnEAtqbr3zsK-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;fillColor=#FF0831;entryX=0.449;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="R-BuqF5xxnEAtqbr3zsK-15" target="R-BuqF5xxnEAtqbr3zsK-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="638" y="242" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R-BuqF5xxnEAtqbr3zsK-15" value="Nexus Artifact" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="572" y="132" width="134" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="R-BuqF5xxnEAtqbr3zsK-22" value="Code BackUp" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="R-BuqF5xxnEAtqbr3zsK-15">
+          <mxGeometry y="22" width="121" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="R-BuqF5xxnEAtqbr3zsK-23" value="Deploy to Prod" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="550" y="264" width="198" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="R-BuqF5xxnEAtqbr3zsK-24" value="Deploy to Production&amp;nbsp;&lt;br&gt;Tomcat WebServer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="R-BuqF5xxnEAtqbr3zsK-23">
+          <mxGeometry x="11" y="33" width="176" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="R-BuqF5xxnEAtqbr3zsK-31" value="&lt;h1&gt;Jenkins Pipeline&lt;br&gt;&lt;br&gt;Code Build/Deployment&amp;nbsp;&lt;br&gt;using jenkins&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="55" y="231" width="319" height="308" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
