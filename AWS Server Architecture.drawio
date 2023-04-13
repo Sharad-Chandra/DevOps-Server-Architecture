@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T16:26:12.787Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="fXTpJwZoYvBr0Ew2IWHm" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-13T16:27:38.960Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="p6cmqpIfdsZ-5aVbzBZz" version="20.8.16" type="github">
   <diagram name="AWS Server Archite" id="SD0fxXQnRGEGHcpXXhom">
     <mxGraphModel dx="954" dy="648" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -42,7 +42,7 @@
           <mxGeometry x="750" y="160" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7HLc04LlqgqcZBL5MIbF-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="110" y="100" width="180" height="440" as="geometry" />
+          <mxGeometry x="110" y="100" width="176" height="439" as="geometry" />
         </mxCell>
         <mxCell id="7HLc04LlqgqcZBL5MIbF-14" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="130" y="150" width="140" height="140" as="geometry" />
