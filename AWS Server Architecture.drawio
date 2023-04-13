@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T16:36:14.203Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="TTbGQB0XhL9k1QQxcx5A" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-13T16:37:05.002Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="DiebQ-cqRrbJFxeA5re6" version="20.8.16" type="github">
   <diagram name="AWS Server Archite" id="SD0fxXQnRGEGHcpXXhom">
     <mxGraphModel dx="1339" dy="650" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -65,8 +65,8 @@
         <mxCell id="7HLc04LlqgqcZBL5MIbF-20" value="Docker&amp;nbsp;&lt;br&gt;Kubernetes&lt;br&gt;Nginx" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="170" y="415" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7HLc04LlqgqcZBL5MIbF-21" value="Nginx" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="130" y="195" width="140" height="50" as="geometry" />
+        <mxCell id="7HLc04LlqgqcZBL5MIbF-21" value="Nginx&lt;br&gt;routing to &lt;br&gt;tomcat" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="130" y="182" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7HLc04LlqgqcZBL5MIbF-23" value="EC-2&lt;br&gt;Instance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="170" y="110" width="60" height="30" as="geometry" />
@@ -98,13 +98,13 @@
         <mxCell id="YsqZmD438xSfTDyG8ZRu-2" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ec2;" vertex="1" parent="1">
           <mxGeometry x="130" y="110" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YsqZmD438xSfTDyG8ZRu-7" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#FF0831;entryX=-0.028;entryY=0.327;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="7HLc04LlqgqcZBL5MIbF-13">
+        <mxCell id="YsqZmD438xSfTDyG8ZRu-7" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#FF0831;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="7HLc04LlqgqcZBL5MIbF-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="44" y="303" as="sourcePoint" />
             <mxPoint x="94" y="253" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YsqZmD438xSfTDyG8ZRu-8" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#FF0831;entryX=-0.006;entryY=0.643;entryDx=0;entryDy=0;entryPerimeter=0;width=9;endSize=5.66;" edge="1" parent="1" target="7HLc04LlqgqcZBL5MIbF-13">
+        <mxCell id="YsqZmD438xSfTDyG8ZRu-8" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#FF0831;entryX=0;entryY=0.25;entryDx=0;entryDy=0;width=9;endSize=5.66;" edge="1" parent="1" target="7HLc04LlqgqcZBL5MIbF-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="44" y="308" as="sourcePoint" />
             <mxPoint x="110" y="320" as="targetPoint" />
