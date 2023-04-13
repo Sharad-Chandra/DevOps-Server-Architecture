@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T16:37:05.002Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="DiebQ-cqRrbJFxeA5re6" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-13T16:38:55.920Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="ny_zpUbaChfBMnJkF2dI" version="20.8.16" type="github">
   <diagram name="AWS Server Archite" id="SD0fxXQnRGEGHcpXXhom">
     <mxGraphModel dx="1339" dy="650" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -117,7 +117,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YsqZmD438xSfTDyG8ZRu-10" value="&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="22" y="561" width="121" height="154" as="geometry" />
+          <mxGeometry x="22" y="561" width="121" height="143" as="geometry" />
         </mxCell>
         <mxCell id="YsqZmD438xSfTDyG8ZRu-11" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.elastic_load_balancing;" vertex="1" parent="1">
           <mxGeometry x="55" y="572" width="55" height="55" as="geometry" />
@@ -157,6 +157,9 @@
         </mxCell>
         <mxCell id="YsqZmD438xSfTDyG8ZRu-24" value="Route - 53" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="225" y="638" width="110" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="YsqZmD438xSfTDyG8ZRu-25" value="Users Accessing applications&lt;br&gt;through&lt;br&gt;Web browser" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="583" y="572" width="231" height="77" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
