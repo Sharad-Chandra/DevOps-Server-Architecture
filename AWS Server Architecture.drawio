@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-04-14T00:35:33.127Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="gNHQ5TI7EAzwSadiu9ek" version="20.8.16" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-04-14T00:36:41.104Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="s8xAYGjSKY7zks0mUQnm" version="20.8.16" type="github" pages="2">
   <diagram name="AWS Server Archite" id="SD0fxXQnRGEGHcpXXhom">
     <mxGraphModel dx="1405" dy="699" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="J8JxiPBIUjwUQGdFOyxS-1" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;AWS RDS&lt;br&gt;DATABASE&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="704" y="204.5" width="120" height="230" as="geometry" />
+          <mxGeometry x="704" y="225.65" width="120" height="230" as="geometry" />
         </mxCell>
         <mxCell id="-eDrcpmzAaLVg620y4rW-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="385" y="99" width="198" height="429" as="geometry" />
@@ -39,7 +39,7 @@
           <mxGeometry x="370" y="60" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7HLc04LlqgqcZBL5MIbF-12" value="Database" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="733" y="165" width="60" height="30" as="geometry" />
+          <mxGeometry x="733" y="186.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7HLc04LlqgqcZBL5MIbF-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="110" y="100" width="176" height="439" as="geometry" />
@@ -171,7 +171,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xAIazWqDJATJiY2A7SAH-4" value="Monitoring Tool" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="638" y="22" width="198" height="143" as="geometry" />
+          <mxGeometry x="638" y="33" width="198" height="154" as="geometry" />
         </mxCell>
         <mxCell id="xAIazWqDJATJiY2A7SAH-5" value="Production Server Monitored Using Grafana/Prometheus" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="xAIazWqDJATJiY2A7SAH-4">
           <mxGeometry x="69" y="44.5" width="60" height="30" as="geometry" />
