@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-14T13:48:16.795Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="nwd-ftfYZcT00U-kPSDU" version="20.8.16" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-04-16T14:55:02.765Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="XTfUsjvrlwFNMX-KlH9Q" version="20.8.16" type="github" pages="2">
   <diagram name="AWS Server Archite" id="SD0fxXQnRGEGHcpXXhom">
-    <mxGraphModel dx="1405" dy="699" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1327" dy="720" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -170,20 +170,23 @@
             <mxPoint x="556.5" y="165" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xAIazWqDJATJiY2A7SAH-4" value="Monitoring Tool" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="638" y="33" width="198" height="154" as="geometry" />
+        <mxCell id="7cIfZRhNnIN0fep5Jhlj-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=36;" vertex="1" parent="1">
+          <mxGeometry x="638" y="22" width="198" height="154" as="geometry" />
         </mxCell>
-        <mxCell id="xAIazWqDJATJiY2A7SAH-5" value="Production Server Monitored Using Grafana/Prometheus" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="xAIazWqDJATJiY2A7SAH-4">
+        <mxCell id="7cIfZRhNnIN0fep5Jhlj-7" value="Monitoring Tool" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="638" y="15" width="198" height="161" as="geometry" />
+        </mxCell>
+        <mxCell id="7cIfZRhNnIN0fep5Jhlj-8" value="Production Server Monitored Using Grafana/Prometheus" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="7cIfZRhNnIN0fep5Jhlj-7">
           <mxGeometry x="69" y="44.5" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xAIazWqDJATJiY2A7SAH-6" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/other/Grafana.svg;" vertex="1" parent="xAIazWqDJATJiY2A7SAH-4">
+        <mxCell id="7cIfZRhNnIN0fep5Jhlj-9" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/other/Grafana.svg;" vertex="1" parent="7cIfZRhNnIN0fep5Jhlj-7">
           <mxGeometry x="69" y="101" width="54.09" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="1-BWtYAePJslckLNeBEu" name="Jenkins">
-    <mxGraphModel dx="2044" dy="2794" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2044" dy="2882" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
